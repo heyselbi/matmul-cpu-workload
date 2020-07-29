@@ -44,7 +44,7 @@ print("REPS set to %s" % _ARGS_REPS, file=sys.stderr)
 # Size of matrix.
 # Options:
 #   A positive integer.
-_ARGS_MATRIX_SIZE = int(os.getenv('MATMUL_MATRIX_SIZE', 512))
+_ARGS_MATRIX_SIZE = int(os.getenv('MATMUL_MATRIX_SIZE', 4096))
 print("MATRIX size set to %s" % _ARGS_MATRIX_SIZE, file=sys.stderr)
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
