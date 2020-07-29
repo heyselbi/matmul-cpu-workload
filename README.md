@@ -13,3 +13,6 @@ a Node only if the Node has enough available memory to satisfy
 the Pod’s memory request."
 
 Link: https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/#specify-a-memory-request-that-is-too-big-for-your-nodes
+
+Tekton CPU/mem requests per task discussion:
+https://github.com/tektoncd/pipeline/pull/723
